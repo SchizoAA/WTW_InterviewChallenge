@@ -1,0 +1,10 @@
+﻿IF NOT EXISTS ( SELECT 1 FROM Campsites WHERE campsite_id=1 ) BEGIN INSERT INTO Campsites ( campsite_id, campsite_type, max_occupancy ) VALUES ( 1, 'TENT', 8 ) END
+IF NOT EXISTS ( SELECT 1 FROM Campsites WHERE campsite_id=2 ) BEGIN INSERT INTO Campsites ( campsite_id, campsite_type, max_occupancy ) VALUES ( 2, 'TENT', 8 ) END
+IF NOT EXISTS ( SELECT 1 FROM Campsites WHERE campsite_id=3 ) BEGIN INSERT INTO Campsites ( campsite_id, campsite_type, max_occupancy ) VALUES ( 3, 'TENT', 8 ) END
+IF NOT EXISTS ( SELECT 1 FROM Campsites WHERE campsite_id=4 ) BEGIN INSERT INTO Campsites ( campsite_id, campsite_type, max_occupancy ) VALUES ( 4, 'TENT', 8 ) END
+IF NOT EXISTS ( SELECT 1 FROM Campsites WHERE campsite_id=5 ) BEGIN INSERT INTO Campsites ( campsite_id, campsite_type, max_occupancy ) VALUES ( 5, 'TENT', 16 ) END
+IF NOT EXISTS ( SELECT 1 FROM Campsites WHERE campsite_id=6 ) BEGIN INSERT INTO Campsites ( campsite_id, campsite_type, max_occupancy ) VALUES ( 6, 'RV', 16 ) END
+IF NOT EXISTS ( SELECT 1 FROM Campsites WHERE campsite_id=7 ) BEGIN INSERT INTO Campsites ( campsite_id, campsite_type, max_occupancy ) VALUES ( 7, 'RV', 16 ) END
+IF NOT EXISTS ( SELECT 1 FROM Campsites WHERE campsite_id=8 ) BEGIN INSERT INTO Campsites ( campsite_id, campsite_type, max_occupancy ) VALUES ( 8, 'RV', 8 ) END
+IF NOT EXISTS ( SELECT 1 FROM Campsites WHERE campsite_id=9 ) BEGIN INSERT INTO Campsites ( campsite_id, campsite_type, max_occupancy ) VALUES ( 9, 'RV', 8 ) END
+IF NOT EXISTS ( SELECT 1 FROM Campsites WHERE campsite_id=10 ) BEGIN INSERT INTO Campsites ( campsite_id, campsite_type, max_occupancy ) VALUES ( 10, 'RV', 8 ) END
